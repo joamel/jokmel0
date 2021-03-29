@@ -24,7 +24,7 @@ import javax.swing.JOptionPane;
  */
 public class BankLogic implements Serializable { 
 	
-    private String SAVE_OBJECT_FILE =  "jokmel0_files/test.dat";
+    private String SAVE_OBJECT_FILE =  "bank_files/test.dat";
 	private int accountNumber;
 	private int lastAssignedNumber = 1000;
 	protected ArrayList<Customer> customers = new ArrayList<Customer>();
@@ -155,7 +155,7 @@ public class BankLogic implements Serializable {
 	    	    
 	    		
 	        	OutputStreamWriter fileOut =
-	                    new OutputStreamWriter(new FileOutputStream("jokmel0_files/"+String.valueOf(accountId)), StandardCharsets.UTF_8);
+	                    new OutputStreamWriter(new FileOutputStream("bank_files/"+String.valueOf(accountId)), StandardCharsets.UTF_8);
 	        	
 	        	//Skriver senast skapade kontonumret till första raden i filen 
 	        	//fileOut.write(strDate + " Events for account: " + String.valueOf(accountId) + "\n\n");
