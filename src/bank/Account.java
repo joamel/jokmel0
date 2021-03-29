@@ -1,4 +1,4 @@
-package jokmel0;
+package bank;
 
 import java.util.ArrayList;
 import java.io.Serializable;

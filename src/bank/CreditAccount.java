@@ -1,4 +1,4 @@
-package jokmel0;
+package bank;
 
 /**
  * Subklassen ärver från Account och skapar ett objekt kreditkonto och håller information detta konto.

@@ -1,4 +1,4 @@
-package jokmel0;
+package bank;
 /**
  * Klassen skapar ett objekt kund som håller information om kunden.
  * @author Joakim Melander, jokmel-0

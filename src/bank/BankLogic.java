@@ -1,4 +1,4 @@
-package jokmel0;
+package bank;
 /**
  * Klassen exekverar olika handlingar i banken.
  * @author Joakim Melander, jokmel-0
